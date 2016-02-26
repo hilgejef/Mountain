@@ -79,7 +79,3 @@ def build(s):
 		blocks += block_string.format(block.type, elements)
 
 	return html_string.format(title_string, blocks)
-
-if __name__ == "__main__":
-	script = parse("C:\Users\Hilger\Dropbox\MyScripts\Test.fountain")
-	print build(script)

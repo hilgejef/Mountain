@@ -446,13 +446,3 @@ def parse(filename):
 					currentBlock.setElementsTo("Action")
 
 	return script
-
-
-### MAIN PROGRAM FLOW
-
-if __name__ == "__main__":
-	### HARDCODED FILE FOR NOW
-	script = parse("C:\Users\Hilger\Dropbox\MyScripts\Test.fountain")
-
-	for block in script.blocks:
-		print "{}\n{}".format(block.type, block)
